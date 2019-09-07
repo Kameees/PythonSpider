@@ -26,7 +26,7 @@ def get_page(page):
     except requests.ConnectionError as e:
         print('Error', e.args)
 
-def parse_page(json):
+def parse_page(json):   #   解析json格式的数据
     if json:
         items = json.get('data').get('cards')
         for item in items:
@@ -43,7 +43,7 @@ client = MongoClient()
 db = client['weibo']
 collection = db['weibo']
 
-def save_to_mongo(result):
+def save_to_mongo(result):  #   存入MongoDB
     if collection.insert(result):
         print('Saved to Mongo')
 

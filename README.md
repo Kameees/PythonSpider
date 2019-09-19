@@ -5,4 +5,4 @@
 
 
 2.<a href='https://github.com/Kameees/PythonSpider/tree/master/%E5%AD%A6%E6%A0%A1%E7%BD%91%E7%AB%99%E7%88%AC%E8%99%AB'>各种学校网站爬虫</a>
-(实习期间写的)
+(实习期间写的其中一部分)
